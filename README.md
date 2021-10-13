@@ -5,30 +5,30 @@ Crud sencillo con Laravel.
 Para crearlo desde cero solo hay que usar los comandos:
 Dentro de htdocs( si es que usamos Xampp):
 
-composer create-project laravel/laravel nombreDelProyecto
-composer require livewire/livewire
+## composer create-project laravel/laravel nombreDelProyecto
+## composer require livewire/livewire
 
 Dentro de VisualStudioCode (en mi caso):
 Abrimos la paleta de comandos y escribimos:
-Artisan make migration
+## Artisan make migration
 
 (con el comando anterior, vamos a poder crear las especificaciones de nuestro proyecto)
 Ej: Este proyecto es de un "Crud de empleados" por lo que la base de datos se va llamar "empleados" y las tablas "empleados",
 luego edité dentro de: database->migrations (y en el último archivo con la extención .php está la "migración" que hicimos anteriormente).
 En la parte de:
-#public function up()
-#agragamos "nombre" y "correo" (en mi caso)
-#Luego de hacer todo esto ejecutamos el comando:
-#php artisan migrate
-#composer require flightsadmin/livewire-crud
-#php artisan crud:install
-#yes 
-#yes
-#php artisan crud:generate empleados
+# public function up()
+# agragamos "nombre" y "correo" (en mi caso)
+# Luego de hacer todo esto ejecutamos el comando:
+## php artisan migrate
+## composer require flightsadmin/livewire-crud
+## php artisan crud:install
+## yes 
+## yes
+## php artisan crud:generate empleados
 
 Para ver en pantalla lo que hicimos:
 
-php artisan serve
+## php artisan serve
 
 Los códigos que utilicé están en:
 
