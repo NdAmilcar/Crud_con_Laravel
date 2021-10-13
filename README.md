@@ -42,8 +42,6 @@ https://github.com/flightsadmin/livewire-crud/blob/main/README.md
     Espero sea de ayuda, si tienen algún problema con el código o alguna duda, sin ningún problema pueden contactarme,
     voy a hacer todo lo posible por responder a todas sus dudas, dejo mis redes sociales para que puedan hacerlo.
 
-# Things to do
-Lista de tareas, todo se aloja en local.
 
 
 ### Por [Amilcar](https://www.instagram.com/ndamilcar/?hl=es)
